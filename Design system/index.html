@@ -12,21 +12,25 @@
     <link rel="stylesheet" href="design.css">
 <!-- Our custom css -->
     <title>Frontend Mentor | Space tourism website</title>
+    <script src="index.js" defer></script>
 </head>
 <body class="home">
     <header class="primary-header flex">
         <div>
             <img src="/space-tourism-website/Design system/assets/shared/logo.svg" alt="space tourism logo" class="logo">
         </div>
+        
 <!-- Navbar -->
-        <!-- <nav>
-            <ul class="primary-navigation underline-indicators flex">
+<nav>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+        
+            <ul id="primary-navigation" data-visible="false"  class="primary-navigation underline-indicators flex">
                 <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span>00</span>Home</a>
                 <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span>01</span>Destination</a>
                 <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span>02</span>Crew</a>
                     <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span>03</span>Technology</a>
             </ul>
-        </nav> -->
+        </nav>
     </header>
 <!-- Contennt -->
     <div class="grid-container grid-container--home"> 
